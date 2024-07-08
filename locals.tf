@@ -37,7 +37,7 @@ locals {
     //gitignore_template = "Terraform"
     // name               = "fem-eci-terraform-product-service"
     // topics             = ["frontend-masters", "terraform"]
-    // visibility         = "private"
+    // visibility         = "public"
     // }
 
     "fem-eci-service" = {
@@ -45,7 +45,7 @@ locals {
       gitignore_template = "Go"
       name               = "fem-eci-service"
       topics             = ["frontend-masters"]
-      visibility         = "private"
+      visibility         = "public"
     }
   }
 }
